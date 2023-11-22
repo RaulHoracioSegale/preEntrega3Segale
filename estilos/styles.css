@@ -24,7 +24,7 @@ body {
   padding-left: 0px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(26, 2, 2, 0.844);
+  background-color: rgba(26, 2, 2, 0.9);
   position: sticky;
   box-sizing: border-box;
 }
@@ -43,7 +43,7 @@ body {
   padding: 25px 0px 0px 0px;
   font-size: 28px;
   text-align: center;
-  color: rgb(255, 0, 0);
+  color: rgb(249, 247, 247);
   font-weight: bold;
 }
 
@@ -143,16 +143,19 @@ a:hover {
 .htmlPrimerosPasos5-icon {
   background-image: url("imagenes/htmlPrimerosPasos5.webp");
   background-size: cover;
+  transition: 1.5s all linear;
 }
 
 .css3-icon {
   background-image: url("imagenes/css3.webp");
   background-size: cover;
+  transition: 1.5s all linear;
 }
 
 .alfainfo-icon {
   background-image: url("imagenes/alfainfo.webp");
   background-size: cover;
+  transition: 1.5s all linear;
 }
 
 .htmlPrimerosPasos5-icon:hover {

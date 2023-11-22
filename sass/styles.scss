@@ -61,11 +61,11 @@ body{
     background-position: center;
     border-radius: 5px;
 }
-@each $animal in htmlPrimerosPasos5, css3, alfainfo{
-    .#{$animal}-icon{
-        background-image: url("imagenes/#{$animal}.webp");
+@each $picture in htmlPrimerosPasos5, css3, alfainfo{
+    .#{$picture}-icon{
+        background-image: url("imagenes/#{$picture}.webp");
         background-size: cover;
-        
+        transition: 1.5s all linear;
     }
 }
 .htmlPrimerosPasos5-icon:hover{

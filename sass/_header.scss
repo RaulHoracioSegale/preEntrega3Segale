@@ -2,9 +2,30 @@ header{
     width: 100%;
     height: auto;
     margin: 0px;
+    position: sticky;
+    box-sizing: border-box;
 }
 #logo{
-    width: 100px;
+    width: 240px;
     height: auto;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 10px 0px;
 }
+.link{
+    text-align: center;
+    text-transform: capitalize;
+}
+ul{
+    margin-bottom: 10px;
+}
+
+.link:hover{
+    text-align: center;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(74, 51, 43, .3);
+    
+}
+
+
+    

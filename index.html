@@ -10,8 +10,8 @@
         <title>Tus Cursos.com</title>
     </head>
     <body>
-        <header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <header class="bg-secondary">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <img id="logo" src="imagenes/logo.png" alt="logo">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,21 +19,21 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                            <li class="nav-item centrado">
+                                <a class="nav-link active text-light link" aria-current="page" href="index.html">Inicio</a>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-light" href="#">cursos</a>
+                            <li class="nav-item centrado">
+                            <a class="nav-link text-light link" href="pages/cursos.html">cursos</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">sobre mi</a>
+                            <li class="nav-item centrado">
+                                <a class="nav-link text-light link" href="pages/sobremi.html">sobre mi</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">lecciones</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Donaciones</a>
-                            </li>
+                            <li class="nav-item centrado">
+                                <a class="nav-link text-light link" href="pages/lecciones.html">lecciones</a>
+                                </li>
+                                <li class="nav-item centrado">
+                                    <a class="nav-link text-light link" href="pages/donaciones.html">donaciones</a>
+                                    </li>
                         </ul>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         En resumen, la alfabetización informática es esencial en la actualidad para participar plenamente en la sociedad, acceder a oportunidades laborales, proteger la privacidad en línea y mantenerse actualizado en un mundo cada vez más digitalizado.</p>
                 </article>
             </section>
-            <article class="ppal col-12 bg-dark estilo">
+            <article class="ppal col-12 estilo">
                 <p> El material bibliográfico es de excelente calidad, extraído de 
                     las mejores cursos existentes en la web, tantos pagos como gratuitos,
                     con los que se realizó una minuciosa 
@@ -123,14 +123,21 @@
                     las aptitudes que éste posea, tales como disciplina, perseverancia, etc.</p>
             </article>
         </main>
-        <footer>
+        <footer class="bg-secondary">
             <div id="contenidoRedes">
-                <a><img class="iconosRedes" src="./imagenes/telefono.png" alt="icono de llamadas"></a>
-                <a><img class="iconosRedes" src="./imagenes/facebook.png" alt="icono de facebook"></a>
-                <a><img class="iconosRedes" src="./imagenes/instagram.png" alt="icono de instagram"></a>
-                <a><img class="iconosRedes" src="./imagenes/whatsapp.png" alt="icono de whatsapp"></a>
-                <a><img class="iconosRedes" src="./imagenes/telegram.png" alt="icono de telegram"></a>
-                <a><img class="iconosRedes" src="./imagenes/hotmail.png" alt="icono de hotmail"></a>
+                <a href="https://www.facebook.com/raul.segale.5" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/facebook.png" alt="icono de facebook"></a>
+                <a href="https://www.instagram.com/invites/contact/?i=1i0y47j692gth&utm_content=w9jmbs" 
+                    target="_blank"><img class="iconosRedes" src="./imagenes/instagram.png" 
+                    alt="icono de instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=543476534994" target="_blank">
+                    <img class="iconosRedes" src="./imagenes/whatsapp.png" alt="icono de whatsapp"></a>
+                <a href="https://t.me/RaulHSegale" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/telegram.png" alt="icono de telegram"></a>
+                <a href="mailto:raulsegale@hotmail.com" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/hotmail.png" alt="icono de hotmail"></a>
+            </div>
+            <div class="copy"><p>Todos los derechos Reservados</p>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -1,9 +1,7 @@
 footer{
     width: 100%;
-    height: auto;
+    height: 300px;
     display: flex;
-    flex-direction: column nowrap;
-    
 }
 #contenidoRedes{
     width: 100%;
@@ -14,13 +12,6 @@ footer{
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-}
-.copy{
-    width: 100%;
-    height: auto;
-    background-color: aquamarine;
-    
-
 }
 .iconosRedes{
     width: 60px;
